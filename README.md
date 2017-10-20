@@ -1,2 +1,2 @@
 # es6
-Alguns exemplos das novas features de Javascript
+Some examples of the new features in Javascript
