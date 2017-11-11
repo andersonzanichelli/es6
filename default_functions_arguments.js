@@ -6,6 +6,17 @@ makeAjaxRequest('example.com');
 makeAjaxRequest('example.com', 'POST');
 
 // ---------------------------------------
+function sum(a = 0, b = 0) {
+  return a + b;
+}
+
+function addOffset(style = {}) {
+  style.offset = '10px';
+
+  return style;
+}
+
+// ---------------------------------------
 function User(id) {
   this.id = id;
 }
