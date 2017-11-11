@@ -27,3 +27,12 @@ var ladders = [
 ];
 
 findWhere(ladders, { height: 25 });
+
+function unique(array) {
+	return array.reduce((acc, x) => {
+     if(acc.find(y => y === x))
+        return acc;
+    acc.push(x);
+  	return acc;
+  }, []);
+}
